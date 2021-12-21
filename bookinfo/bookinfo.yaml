@@ -298,7 +298,7 @@ spec:
     name: http
   selector:
     app: productpage
-  type: LoadBalancer
+  #type: LoadBalancer
 ---
 apiVersion: v1
 kind: ServiceAccount
